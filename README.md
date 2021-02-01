@@ -23,17 +23,17 @@ End goal -- The python path has been mapped to my VScode and also the virtual en
 
 Creating the Django App
 
-I launched the terminal on VS code and ran:
+-- I launched the terminal on VS code and ran:
  -- python -m pip install Django
 
-In the activated virtual environment, I  ran the below cmd: 
+-- In the activated virtual environment, I  ran the below cmd: 
 -- django-admin startproject web_project 
 
-The new web-project was in the same directory with manage.py file. To verify the new created django project, i cd into web_project then run
+-- The new web-project was in the same directory with manage.py file. To verify the new created django project, i cd into web_project then run
 -- python manage.py runserver
 
 
-This command below stops whatever site your local host is running
+-- This command below stops whatever site your local host is running
 
 -- netstat -ano| finstr :8000
 -- taskkill /PID 3244 /F
